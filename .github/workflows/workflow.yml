@@ -6,7 +6,7 @@ name: Build and deploy container app to Azure Web App - dpc-container-app
 on:
   push:
     branches:
-      - python-img
+      - main
   workflow_dispatch:
 
 jobs:
