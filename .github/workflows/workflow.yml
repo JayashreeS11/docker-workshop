@@ -6,6 +6,9 @@ name: Build and deploy container app to Azure Web App - dpc-container-app
 on:
   push:
     branches:
+      - newbranch
+  pull_request:
+    branches:
       - main
   workflow_dispatch:
 
